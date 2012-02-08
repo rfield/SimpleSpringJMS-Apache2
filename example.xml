@@ -1,0 +1,46 @@
+<ProcessStarterOutput>
+    <Method>POST</Method>
+    <RequestURI>/RSDVR</RequestURI>
+    <HTTPVersion>HTTP/1.1</HTTPVersion>
+    <PostData><?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+        <RecordingComplete ReasonCode="200" ReasonDescription="OK"
+                           xsi:schemaLocation="http://iplatform.cablevision.com/namespaces/dvrplus/scheduler dvr-plus-server.xsd"
+                           xmlns="http://iplatform.cablevision.com/namespaces/dvrplus/scheduler"
+                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" AssetID="4591751">
+            <PVRList>
+                <PVRListItem HomeID="43610791" MACAddress="ECE09B143693" ReasonCode="500"
+                             ReasonDescription="Internal Server Error" RecordingSize="0"/>
+                <PVRListItem HomeID="38604779" MACAddress="ECE09B0D3C13" ReasonCode="500"
+                             ReasonDescription="Internal Server Error" RecordingSize="0"/>
+                <PVRListItem HomeID="39141321" MACAddress="484487BE88DE" RecordingSize="915927040"/>
+                <PVRListItem HomeID="42301605" MACAddress="00169286D090" ReasonCode="500"
+                             ReasonDescription="Internal Server Error" RecordingSize="0"/>
+                <PVRListItem HomeID="44379503" MACAddress="ECE09B1B9EC9" ReasonCode="500"
+                             ReasonDescription="Internal Server Error" RecordingSize="0"/>
+                <PVRListItem HomeID="44494110" MACAddress="000F21EF822E" ReasonCode="500"
+                             ReasonDescription="Internal Server Error" RecordingSize="0"/>
+            </PVRList>
+        </RecordingComplete>
+    </PostData>
+    <Command>/RSDVR</Command>
+    <Header>POST /RSDVR HTTP/1.1accept: */*&#xD;
+        accept-encoding: gzip&#xD;
+        host: sdgbw.vsf4-2.hcvlny.dhg.cv.net&#xD;
+        content-type: text/xml&#xD;
+        connection: keep-alive&#xD;
+        content-length: 1159&#xD;
+    </Header>
+    <Protocol>HTTP</Protocol>
+    <Port>10191</Port>
+    <Headers>
+        <Accept>*/*</Accept>
+        <Accept-Encoding>gzip</Accept-Encoding>
+        <Content-Type>text/xml</Content-Type>
+        <Content-Length>1159</Content-Length>
+        <Connection>keep-alive</Connection>
+    </Headers>
+    <ns0:Context xmlns:ns0="http://xmlns.tibco.com/bw/plugin-api/messages/context">
+        <RemoteAddress>10.248.19.6</RemoteAddress>
+    </ns0:Context>
+</ProcessStarterOutput>
+
